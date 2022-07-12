@@ -1,7 +1,14 @@
 {
     "name": "udhuong/laravel-upload-file",
     "description": "Package for upload file",
-    "type": "library",
+    "keywords": ["file", "image", "uploader", "eloquent", "laravel"],
+    "authors": [
+        {
+            "name": "Sean Fraser",
+            "email": "ungdinhhuong@gmail.com"
+        }
+    ],
+    "license": "MIT",
     "require": {
         "php": ">=7.4.0",
         "illuminate/support": "^8.83|^9.0",
@@ -25,7 +32,6 @@
         "laravel/legacy-factories": "^1.3.0",
         "doctrine/dbal": "^2.11|^3.0"
     },
-    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Udhuong\\LaravelUploadFile\\": "src/"
@@ -36,11 +42,8 @@
             "Udhuong\\LaravelUploadFile\\Tests\\": "tests/"
         }
     },
-    "authors": [
-        {
-            "name": "udhuong"
-        }
-    ],
+    "minimum-stability": "beta",
+    "prefer-stable": true,
     "extra": {
         "laravel": {
             "providers": [
