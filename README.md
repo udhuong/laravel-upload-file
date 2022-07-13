@@ -21,7 +21,7 @@ $file = LaravelUploadFile::fromSource($request->file('images'))
 Add the package to your Laravel app using composer
 
 ```bash
-composer require plank/laravel-mediable
+composer require udhuong/laravel-upload-file
 ```
 
 Register the package's service provider in `config/app.php`. In Laravel versions 5.5 and beyond, this step can be skipped if package auto-discovery is enabled.
